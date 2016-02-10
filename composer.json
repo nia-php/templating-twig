@@ -1,0 +1,25 @@
+{
+  "name" : "nia/templating-twig",
+  "description" : "Templating implementation using twig.",
+  "require" : {
+    "php" : ">=7.0.0",
+    "nia/templating" : "*",
+    "twig/twig" : "~1.0"
+  },
+  "license" : "MIT",
+  "keywords" : [ "nia", "templating", "twig" ],
+  "minimum-stability" : "dev",
+  "autoload" : {
+    "psr-4" : {
+      "Nia\\Templating\\Twig\\" : "sources/",
+      "Test\\Nia\\Templating\\Twig\\" : "tests/"
+    }
+  },
+  "type" : "library",
+  "homepage" : "http://www.nat-software.de",
+  "authors" : [ {
+    "name" : "Patrick Ullmann",
+    "email" : "patrick.ullmann@nat-software.de",
+    "role" : "lead"
+  } ]
+}
