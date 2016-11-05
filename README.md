@@ -7,7 +7,7 @@ Component to use the Twig template engine in the nia framework.
 Require this package with Composer.
 
 ```bash
-	composer require nia/template-twig
+	composer require nia/templating-twig
 ```
 
 ## Tests
